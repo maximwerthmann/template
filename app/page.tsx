@@ -1,9 +1,7 @@
-import Image from "next/image";
+'use client';
+
+import { redirect } from "next/navigation";
 
 export default function Home() {
-  return (
-    <main className="flex items-center justify-center">
-      <span>Maxim's NextJS Template V1.0</span>
-    </main>
-  );
+  redirect('/login')
 }
