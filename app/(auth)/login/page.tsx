@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { FiArrowRight, FiLock, FiMail, } from "react-icons/fi";
 import AuthProviders from "../auth-proivders";
+import { Lock, Mail } from "lucide-react";
 
 export default function Page() {
   return (
@@ -20,7 +20,7 @@ export default function Page() {
             <div className="flex flex-col space-y-6">
               <div className="flex flex-col space-y-2">
                 <div className="relative flex items-center text-muted-foreground focus-within:text-foreground">
-                  <FiMail className="absolute left-2" />
+                  <Mail className="absolute left-2" size={16} />
                   <Input
                     placeholder="E-mail"
                     type="email"
@@ -29,7 +29,7 @@ export default function Page() {
                   />
                 </div>
                 <div className="relative flex items-center text-muted-foreground focus-within:text-foreground">
-                  <FiLock className="absolute left-2" />
+                  <Lock className="absolute left-2" size={16} />
                   <Input
                     placeholder="Password"
                     type="password"
