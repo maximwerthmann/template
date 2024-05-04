@@ -48,7 +48,7 @@ export default function Page() {
               <AuthProviders />
               <div className="flex space-x-1 text-sm">
                 <span className="text-muted-foreground">
-                Don't have an account?
+                Don&quot;t have an account?
                 </span>
               <Link href={'/signup'} className="underline">
                 Sign up here
