@@ -11,13 +11,14 @@ export default function Page() {
   return (
         <div className="space-y-8 w-64">
           <div className="flex flex-col space-y-2">
-            <span className="font-semibold text-4xl">Log in</span>
+            <span className="font-semibold text-2xl">Welcome back 👋</span>
             <span className="text-sm text-muted-foreground">
               Log in using email, choose a provider or create a new account.
             </span>
           </div>
           <div className="flex flex-col space-y-4">
             <div className="flex flex-col space-y-6">
+              <form className="flex flex-col space-y-4">
               <div className="flex flex-col space-y-2">
                 <div className="relative flex items-center text-muted-foreground focus-within:text-foreground">
                   <Mail className="absolute left-2" size={16} />
@@ -38,7 +39,8 @@ export default function Page() {
                   />
                 </div>
               </div>
-              <Button disabled>Coming soon...</Button>
+              <Button>Log in</Button>
+              </form>
               <div className="relative flex items-center justify-center">
                 <span className="absolute bg-background px-2 text-xs text-muted-foreground uppercase">
                   or continue with

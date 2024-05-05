@@ -22,17 +22,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <div className="flex h-screen w-full ">
-      <div className="flex-1 relative hidden lg:flex overflow-auto">
-        <NoPageSelected />
-      </div>
-      <div className="flex-1 relative lg:border-x overflow-auto">
-        <Header/>
-        {children}
-      </div>
-      <div className="flex-1 relative hidden lg:flex overflow-auto">
-        <NoPageSelected />
-      </div>
-    </div>
+    <>
+    <Header/>
+    {children}
+    </>
   );
 }

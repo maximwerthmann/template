@@ -13,7 +13,7 @@ export default function Page() {
   return (
     <div className="space-y-8 w-64">
     <div className="flex flex-col space-y-2">
-      <span className="font-semibold text-4xl">Sign up</span>
+      <span className="font-semibold text-2xl">Sign up ✨</span>
       <span className="text-sm text-muted-foreground">
         Create an account using email or a proivder below.
       </span>
@@ -52,7 +52,7 @@ export default function Page() {
                 <Checkbox id="terms_check"/>
                 <Label htmlFor="terms_check" className="text-muted-foreground">I have read and accept the<br/> <Link href={'/terms'} className="text-foreground underline">terms and conditions</Link></Label>
               </div>
-              <Button disabled>Coming soon...</Button>
+              <Button>Sign up</Button>
               <div className="relative flex items-center justify-center">
                 <span className="absolute bg-background px-2 text-xs text-muted-foreground uppercase">
                   or continue with
