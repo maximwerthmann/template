@@ -12,7 +12,7 @@ export default function RootLayout({
       <div className="absolute top-4 right-4 z-50">
       </div>
       <div className="flex-1 hidden lg:flex items-center justify-center inset-0 h-full w-full bg-background bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px]">
-        <div className="flex flex-col space-y-4 text-center">
+        <div className="flex items-center justify-center h-full w-full">
         <span className="text-8xl font-Chomsky">Maxim Social</span>
         </div>
       </div>

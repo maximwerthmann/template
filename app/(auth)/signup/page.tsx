@@ -7,7 +7,7 @@ import Link from "next/link";
 import AuthProviders from "../auth-proivders";
 import { Checkbox } from "@/components/ui/checkbox";
 import { Label } from "@/components/ui/label";
-import { Lock, Mail } from "lucide-react";
+import { Lock, Mail, User } from "lucide-react";
 
 export default function Page() {
   return (
@@ -19,6 +19,7 @@ export default function Page() {
       </span>
     </div>
             <div className="flex flex-col space-y-6">
+              <form className="flex flex-col space-y-4">
               <div className="flex flex-col space-y-2">
                 <div className="relative flex items-center text-muted-foreground focus-within:text-foreground">
                   <Mail className="absolute left-2" size={16} />
@@ -53,6 +54,7 @@ export default function Page() {
                 <Label htmlFor="terms_check" className="text-muted-foreground">I have read and accept the<br/> <Link href={'/terms'} className="text-foreground underline">terms and conditions</Link></Label>
               </div>
               <Button>Sign up</Button>
+              </form>
               <div className="relative flex items-center justify-center">
                 <span className="absolute bg-background px-2 text-xs text-muted-foreground uppercase">
                   or continue with

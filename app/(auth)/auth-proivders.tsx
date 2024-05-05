@@ -13,6 +13,14 @@ export default function AuthProviders() {
           <span>Microsoft</span>
           <Image alt="microsoft" src='/svg/auth/microsoft.svg' height={18} width={18}/>
         </Button>
+        <Button variant={"outline"} className="space-x-4">
+          <span>Discord</span>
+          <Image alt="microsoft" src='/svg/auth/discord.svg' height={18} width={18}/>
+        </Button>
+        <Button variant={"outline"} className="space-x-4">
+          <span>Facebook</span>
+          <Image alt="microsoft" src='/svg/auth/facebook.svg' height={18} width={18}/>
+        </Button>
       </div>
     );
   }
