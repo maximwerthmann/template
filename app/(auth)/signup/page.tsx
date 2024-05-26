@@ -11,7 +11,7 @@ import { Lock, Mail, User } from "lucide-react";
 
 export default function Page() {
   return (
-    <div className="space-y-8 w-64">
+    <div className="space-y-8">
     <div className="flex flex-col space-y-2">
       <span className="font-semibold text-2xl">Sign up ✨</span>
       <span className="text-sm text-muted-foreground">
